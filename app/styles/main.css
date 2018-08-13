@@ -19,6 +19,32 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.jumbotron h1 {
+  text-align: center;
+}
+
+.jumbotron ul {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.jumbotron li {
+  display: inline-block;
+  font-size: 1.25em;
+  list-style: none;
+}
+
+.jumbotron a{
+  display: block;
+  color: black;
+  padding: 10px;
+}
+
+.social {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 .section-title{
   text-align: center;
   margin: 25px;
@@ -35,6 +61,34 @@ body {
   border: none;
   text-align: center;
   padding: 0;
+}
+
+#event {
+  margin-bottom: 25px;
+}
+
+.event-item {
+  margin: 0px 50px;
+}
+
+#mission {
+  margin: 0px 50px;
+}
+
+#mission p {
+  font-size: 20px;
+}
+
+#vision {
+  margin: 25px 50px;
+}
+
+#vision p {
+  font-size: 20px;
+}
+
+.top i {
+  text-align: center;
 }
 
 /*.browsehappy {
