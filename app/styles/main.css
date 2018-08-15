@@ -57,7 +57,6 @@ body {
 }
 
 .pillar-item {
-  margin: 1em;
   border: none;
   text-align: center;
   padding: 0;
@@ -71,8 +70,25 @@ body {
   margin: 0px 50px;
 }
 
+/* About Page */
+.eboard-img {
+  padding-top: 1em;
+}
+
+.eboard-row {
+  margin-bottom: 3em;
+}
+
+.eboard-title {
+  margin-top: -10px;
+}
+
+#aboutUs .card {
+  border: none;
+}
+
 #mission {
-  margin: 0px 50px;
+  margin: 2em 1em;
 }
 
 #mission p {
