@@ -1,5 +1,5 @@
 :root{
-  --main-color: #000F5A;
+  --blue-color: #000F5A;
   --alternate-color: #D6D6D6;
   --alt-color: #8388A7;
 }
@@ -71,9 +71,6 @@ body {
 }
 
 /* About Page */
-.eboard-img {
-  padding-top: 1em;
-}
 
 .eboard-row {
   margin-bottom: 3em;
@@ -81,6 +78,24 @@ body {
 
 .eboard-title {
   margin-top: -10px;
+  font-size: 16px;
+  color: grey;
+}
+
+.eboard-img{
+  border-radius: 50%; 
+  width: 200px;
+  height: 200px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#aboutUs {
+  padding: 0 25px;
+}
+
+#aboutUs .spacing{
+  margin: 0 25px;
 }
 
 #aboutUs .card {
