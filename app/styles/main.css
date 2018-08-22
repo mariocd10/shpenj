@@ -78,7 +78,7 @@ body {
 
 .eboard-title {
   margin-top: -10px;
-  font-size: 16px;
+  font-size: 15px;
   color: grey;
 }
 
@@ -91,7 +91,6 @@ body {
 }
 
 #aboutUs {
-  padding: 0 25px;
 }
 
 #aboutUs .spacing{
@@ -100,6 +99,10 @@ body {
 
 #aboutUs .card {
   border: none;
+}
+
+#aboutUs .card-title{
+  white-space: nowrap;
 }
 
 #mission {
