@@ -1,11 +1,16 @@
 :root{
-  --blue-color: #000F5A;
+  --shadow-blue: #8388A7;
+  --light-gray: #D6D6D6;
   --alternate-color: #D6D6D6;
   --alt-color: #8388A7;
 }
 
-body {
-  padding: 0;
+html, body {
+  width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .header {
@@ -19,22 +24,27 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-.jumbotron h1 {
+.pg-title{
+  background-color: var(--light-gray);
+  padding: 1em;
+}
+
+.pg-title h1 {
   text-align: center;
 }
 
-.jumbotron ul {
+.pg-title ul {
   margin: 5px 0 0 0;
   padding: 0;
 }
 
-.jumbotron li {
+.pg-title li {
   display: inline-block;
   font-size: 1.25em;
   list-style: none;
 }
 
-.jumbotron a{
+.pg-title a{
   display: block;
   color: black;
   padding: 10px;
@@ -71,6 +81,19 @@ body {
 }
 
 /* About Page */
+#aboutUs {
+
+}
+#aboutUs .row div {
+}
+
+#aboutUs .card {
+  border: none;
+}
+
+#aboutUs .card-title{
+  white-space: nowrap;
+}
 
 .eboard-row {
   margin-bottom: 3em;
@@ -88,22 +111,9 @@ body {
   height: 200px;
   background-position: top;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
-#aboutUs {
-}
-
-#aboutUs .spacing{
-  margin: 0 25px;
-}
-
-#aboutUs .card {
-  border: none;
-}
-
-#aboutUs .card-title{
-  white-space: nowrap;
-}
 
 #mission {
   margin: 2em 1em;
