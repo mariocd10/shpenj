@@ -1,8 +1,9 @@
 :root{
+  --royal-blue: #000F5A;
   --shadow-blue: #8388A7;
+  --payne-grey: #5D5F80;
   --light-gray: #D6D6D6;
-  --alternate-color: #D6D6D6;
-  --alt-color: #8388A7;
+  --blue-bell: #A2A7C9;
 }
 
 html, body {
@@ -22,6 +23,17 @@ html, body {
   padding: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+}
+
+#topheader .navbar-nav li > a {
+  text-transform: capitalize;
+  color: var(--royal-blue);
+  transition: background-color .2s, color .2s;
+  border-radius: 5%;
+}
+
+#topheader .navbar-nav li > a:hover {
+  background-color: var(--light-gray);
 }
 
 .pg-title{
