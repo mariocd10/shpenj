@@ -94,6 +94,49 @@ body {
     }
 }
 
+.center {
+    text-align: center;
+}
+
+#pillars {
+    padding: 25px;
+
+    .card {
+        border: none;
+        padding: 0;
+        margin-top: 25px;
+    }
+}
+
+#aboutUs {
+
+    .card{
+        border: none;
+    }
+
+    .card-title{
+      white-space: nowrap;
+    }
+}
+
+.eboard-row {
+  margin-bottom: 3em;
+}
+
+.eboard-title {
+  margin-top: -10px;
+  font-size: 15px;
+  color: grey;
+}
+
+.eboard-img{
+  border-radius: 50%; 
+  width: 200px;
+  height: 200px;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
 
 header {
     position: absolute;
@@ -216,8 +259,4 @@ footer {
         margin: 0 auto;
         background: $base-color;
     }
-}
-
-.background-alt {
-    background: $background-alt;
 }
