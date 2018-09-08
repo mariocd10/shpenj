@@ -37,8 +37,13 @@ gulp.task('useref', function(){
 		.pipe(gulp.dest('dist'))
 });
 
+gulp.task('move-css', function(){
+	return gulp.src('app/css/bootstrap.min.css')
+		.pipe(gulp.dest('dist/css'))
+})
+
 gulp.task('build', function(callback){
-	runSequence('clean:dist', ['sass', 'useref', 'images'], callback)
+	runSequence('clean:dist', ['sass', 'useref','move-css', 'images'], callback)
 })
 
 // Development Process
@@ -58,6 +63,7 @@ gulp.task('sass', function () {
         	stream: true
         }))
 });
+
 
 gulp.task('watch',['browserSync','sass'] ,function(){
 	gulp.watch('app/scss/**/*.scss',['sass']);
