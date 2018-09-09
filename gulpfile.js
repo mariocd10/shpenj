@@ -24,7 +24,7 @@ gulp.task('cache:clear', function(callback){
 })
 
 gulp.task('images', function(){
-	return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
+	return gulp.src('app/images/**/*.+(png|jpg|jpeg|gif|svg)')
 		.pipe(cache(imagemin()))
 		.pipe(gulp.dest('dist/images'))		
 })
