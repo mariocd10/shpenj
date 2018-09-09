@@ -9,6 +9,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- build:css css/styles.min.css -->
     <link href="css/styles.css" rel="stylesheet">
     <!-- endbuild -->
@@ -18,50 +19,14 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Begin Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
-      <a class="navbar-brand" href="#"><img width="400px" src="images/shpenj-logo.png"></a>
+    <section include-html="navbar.html"></section>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Membership</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Events</a>
-          </li>
-        </ul>
+    <div id="lead">
+      <div id="lead-content">
+        <h1>SHPE NJ</h1>
+        <h2>Professional Chapter</h2>
       </div>
-    </nav>
-    <!-- End Navbar -->
-
-    <div class="jumbotron">
-      <div>
-        <h1 class="center">SHPE NJ Professional Chapter</h1>
-        <div class="social">
-          <ul>
-              <li>
-                  <a href="https://facebook.com/shpenj" target="_blank"><img src="images/social/facebook.png" height="75px"></a>
-              </li>
-              <li>
-                  <a href="https://www.instagram.com/shpe_nj/" target="_blank"><img src="images/social/ig.png" height="60px"></a>
-              </li>
-              <li>
-                  <a href="https://www.twitter.com/shpenj" target="_blank"><img src="images/social/twitter.png" height="80px"></a>
-              </li>
-          </ul>
-        </div>
-      </div>
+      <div id="lead-overlay"></div>
     </div>
 
     <div class ="row center" id="pillars">
@@ -119,7 +84,7 @@
     <!-- End Pillars Section -->
 
     <!-- Start Event Section -->
-    <div id="event">
+    <div id="event-prev">
       <h2 class="section-title center">Upcoming Events</h2>
       <!-- Event Item -->
       <div class="col-md-4 mx-auto">
@@ -135,36 +100,7 @@
       <!-- End Event Item -->
     </div>
 
-    <!-- Footer Starts -->
-    <footer class="footer row">
-      <div class="col-md-4">
-        <h6 class="center">Copyright &copy; 2018 </h6>
-      </div>
-
-      <div class="col-md-4">
-        <h2 class="center">Connect With Us</h2>
-        <div class="social">
-          <ul>
-              <li>
-                  <a href="https://facebook.com/shpenj" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                  <a href="https://www.instagram.com/shpe_nj/" target="_blank"><i class="fa fa-instagram"></i></a>
-              </li>
-              <li>
-                  <a href="https://www.twitter.com/shpenj" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-          <h2 class="center">Contact Us</h2>
-          <h5 class="center"><i class="fa fa-envelope"></i>  shpenj@gmail.com</h3>
-          <h5 class="center"><a href="shpe.org">SHPE National</a>
-      </div>
-    </footer>
-    <!-- Footer Ends -->
+    <section include-html="footer.html"></section>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
