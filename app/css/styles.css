@@ -67,7 +67,7 @@ footer {
   display: inline-block;
   font-size: 3em;
   font-weight: 200;
-  margin: 0 0 30px 0;
+  margin: 25px 0 45px 0;
   text-align: center;
   color: #00143B; }
   .heading:after {
@@ -186,4 +186,4 @@ footer {
 .statement p {
   text-align: center;
   font-size: 1.25em;
-  color: #2B57AD; }
+  line-height: 1.6; }
