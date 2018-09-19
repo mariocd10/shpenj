@@ -1,18 +1,14 @@
-# Portfolio
+# Society of Hispanic Professional Engineers - New Jersey Chapter
 
-Personal dev portfolio site inspired by [Ryan Fitzgerald](https://github.com/RyanFitzgerald/devportfolio).
-View the demo [here](https://mariocd10.github.io/portfolio/).
+Visit us at our [site](shpenj.org).
 
-## Features
+## Mission Statement
+The Society of Hispanic Professional Engineers (SHPE) changes lives by empowering the Hispanic community to realize their fullest potential and impacts the world through STEM awareness, access, support, and development.
 
-* Gulp ready (compiles Sass and minifies JS)
-* Sass ready with lots of commenting
-* Fully responsive
-* Comes with Bootstrap grid system
-* Easy colour changes can be done through simple variable edits
+## Vision
+SHPE's vision is a world where Hispanics are highly valued and influential as the leading innovators, scientists, mathematicians, and engineers.
 
-## Deployment Information
+## SHPE National Biography
+The Society of Hispanic Professional Engineers (SHPE) was founded in Los Angeles, California, in 1974 by a group of engineers employed by the city of Los Angeles. Their objective was to form a national organization of professional engineers to serve as role models in the Hispanic community.
 
-run `npm install` in order to get all the Gulp dev dependencies. 
-
-run `Gulp watch` to compile the Sass and minify the JavaScript OR if you don't have Gulp installed globally, you can run the npm script `npm run watch`. Any changes done to the JavaScript (js/scripts.js) or Sass (sass/styles.scss) will be autocompiled and ready to go.
+The concept of Networking was the key basis for the organization. SHPE quickly established two student chapters to begin the network that would grow to encompass the nation as well as reach countries outside the United States. Today, SHPE enjoys a strong but independent network of professional and student chapters throughout the nation.
