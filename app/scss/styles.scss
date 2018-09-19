@@ -24,8 +24,8 @@ Color Theme
 */
 
 // Define Color Scheme
-$dark-blue: #00143B; //1
-$light-blue: #2B57AD; //4
+$dark-blue: #00143B;
+$light-blue: #2B57AD;
 
 // Define background colors
 $white: #fff;
@@ -114,6 +114,9 @@ footer {
     text-align: center;
 }
 
+h2{
+    color: $dark-blue;
+}
 .heading {
     position: relative;
     display: inline-block;
@@ -121,7 +124,7 @@ footer {
     font-weight: 200;
     margin: 25px 0 45px 0;
     text-align: center;
-    color: $dark-blue;
+    
     
     &:after {
         position: absolute;
@@ -228,6 +231,14 @@ footer {
 
 
 #eboard {
+    
+    p {
+        color: grey;   
+    }
+
+    h5 {
+        color: $dark-blue;
+    }
 
     margin-top: 50px;
     .card{
@@ -245,7 +256,6 @@ footer {
     .eboard-title {
       margin-top: -10px;
       font-size: 15px;
-      color: grey;
     }
 
     .eboard-img{

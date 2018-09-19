@@ -62,14 +62,16 @@ footer {
 .center {
   text-align: center; }
 
+h2 {
+  color: #00143B; }
+
 .heading {
   position: relative;
   display: inline-block;
   font-size: 3em;
   font-weight: 200;
   margin: 25px 0 45px 0;
-  text-align: center;
-  color: #00143B; }
+  text-align: center; }
   .heading:after {
     position: absolute;
     content: '';
@@ -152,6 +154,10 @@ footer {
 
 #eboard {
   margin-top: 50px; }
+  #eboard p {
+    color: grey; }
+  #eboard h5 {
+    color: #00143B; }
   #eboard .card {
     border: none; }
   #eboard .card-title {
@@ -160,8 +166,7 @@ footer {
     margin-bottom: 3em; }
   #eboard .eboard-title {
     margin-top: -10px;
-    font-size: 15px;
-    color: grey; }
+    font-size: 15px; }
   #eboard .eboard-img {
     border-radius: 50%;
     width: 200px;
