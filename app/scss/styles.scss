@@ -103,20 +103,20 @@ footer {
 
     i {
         color: #fff;
-
         &:hover {
             color: $grey;
         }
     }
 }
 
+h2{
+    color: $dark-blue;
+}
+
 .center {
     text-align: center;
 }
 
-h2{
-    color: $dark-blue;
-}
 .heading {
     position: relative;
     display: inline-block;
@@ -294,7 +294,5 @@ h2{
         font-size: 1.25em;
         line-height: 1.6;
     }
-
-
 }
 
