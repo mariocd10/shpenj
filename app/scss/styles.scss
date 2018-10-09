@@ -113,6 +113,14 @@ h2{
     color: $dark-blue;
 }
 
+iframe {
+    margin: 0 auto;
+    border: 0;
+    height: 600px;
+    frameborder: 0;
+    scrolling:no;
+}
+
 .center {
     text-align: center;
 }
