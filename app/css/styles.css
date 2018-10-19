@@ -90,6 +90,9 @@ iframe {
     margin: 0 auto;
     background: #00143B; }
 
+.list-group li {
+  border: none; }
+
 #lead {
   position: relative;
   height: 100vh;
@@ -199,3 +202,26 @@ iframe {
   text-align: center;
   font-size: 1.25em;
   line-height: 1.6; }
+
+#membership #benefits p {
+  font-size: 1.2em;
+  color: #00143B; }
+
+#membership .mem-type {
+  margin: 20px 25px; }
+
+#membership .bcom-mem {
+  margin: 0 25px; }
+
+#membership .card-header {
+  background-color: #00143B;
+  color: #fff; }
+
+#membership .card-footer {
+  background-color: #cccccc; }
+
+#accordionExample button {
+  color: #fff; }
+
+#accordionExample .card-body {
+  background-color: #cccccc; }
