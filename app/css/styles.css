@@ -59,6 +59,12 @@ footer {
     footer i:hover {
       color: #cccccc; }
 
+a {
+  color: #2B57AD; }
+  a:hover {
+    text-decoration: none;
+    color: #cccccc; }
+
 h2 {
   color: #00143B; }
 
@@ -225,3 +231,16 @@ iframe {
 
 #accordionExample .card-body {
   background-color: #cccccc; }
+
+#stem-comp #agenda {
+  border-collapse: initial; }
+
+#stem-comp #stem-event-info {
+  margin-bottom: 1rem; }
+  #stem-comp #stem-event-info i {
+    font-size: 3rem;
+    color: #00143B;
+    margin-bottom: 1rem; }
+
+#stem-comp #forms {
+  margin: 0 auto; }

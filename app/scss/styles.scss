@@ -109,6 +109,15 @@ footer {
     }
 }
 
+a {
+    color: $light-blue;
+    
+    &:hover {
+        text-decoration: none;
+        color: $grey;
+    }
+}
+
 h2{
     color: $dark-blue;
 }
@@ -342,6 +351,25 @@ iframe {
 
     .card-body {
         background-color: $grey;
+    }
+}
+
+#stem-comp {
+    #agenda {
+        border-collapse: initial;
+    }
+    #stem-event-info {
+        margin-bottom: 1rem;
+    
+        i {
+            font-size: 3rem;
+            color: $dark-blue;
+            margin-bottom: 1rem;
+        }
+    }
+    
+    #forms {
+        margin: 0 auto;
     }
 }
 
