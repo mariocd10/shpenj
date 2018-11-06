@@ -156,6 +156,14 @@ iframe {
     margin-bottom: 25px;
     font-size: 3em; }
 
+.event-item {
+  margin: 2rem 1rem; }
+  .event-item .card-header {
+    background-color: #00143B;
+    color: #cccccc; }
+  .event-item .card-body {
+    background-color: #cccccc; }
+
 #sub-lead {
   position: relative;
   height: 25vh;

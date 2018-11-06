@@ -237,6 +237,19 @@ iframe {
     }
 }
 
+.event-item {
+    margin: 2rem 1rem;
+
+    .card-header {
+        background-color: $dark-blue;
+        color: $grey;
+    }
+
+    .card-body {
+        background-color: $grey;
+    }
+}
+
 #sub-lead {
     position: relative;
     height: 25vh;
