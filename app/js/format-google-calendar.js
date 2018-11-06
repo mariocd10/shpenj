@@ -247,7 +247,7 @@
             }
     
             var dateFormatted = getFormattedDate(dateStart, dateEnd, dayNames, moreDaysEvent, isAllDayEvent),
-                output = '<' + tagName + ' class="card">',
+                output = '<' + tagName + ' class="card event-item">',
                 summary = result.summary || '',
                 description = result.description || '',
                 location = result.location || '',
