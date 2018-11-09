@@ -42,8 +42,13 @@ gulp.task('move-css', function(){
 		.pipe(gulp.dest('dist/css'))
 })
 
+gulp.task('move-docs', function(){
+	return gulp.src('app/docs/*.pdf')
+		.pipe(gulp.dest('dist/docs'))
+})
+
 gulp.task('build', function(callback){
-	runSequence('clean:dist', ['sass', 'useref','move-css', 'images'], callback)
+	runSequence('clean:dist', ['sass', 'useref','move-css', 'move-docs', 'images'], callback)
 })
 
 // Development Process
