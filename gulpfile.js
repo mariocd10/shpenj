@@ -42,13 +42,18 @@ gulp.task('move-css', function(){
 		.pipe(gulp.dest('dist/css'))
 })
 
+gulp.task('move-js', function(){
+	return gulp.src('app/js/format-google-calendar.js')
+		.pipe(gulp.dest('dist/js'))
+})
+
 gulp.task('move-docs', function(){
 	return gulp.src('app/docs/*.pdf')
 		.pipe(gulp.dest('dist/docs'))
 })
 
 gulp.task('build', function(callback){
-	runSequence('clean:dist', ['sass', 'useref','move-css', 'move-docs', 'images'], callback)
+	runSequence('clean:dist', ['sass', 'useref','move-css', 'move-js', 'move-docs', 'images'], callback)
 })
 
 // Development Process
