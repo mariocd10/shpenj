@@ -263,7 +263,7 @@
                 } else if (format[i] === '*description*') {
                     output = output.concat('<span class="description">' + description + '</span>');
                 } else if (format[i] === '*location*') {
-                    output = output.concat('<span class="location">' + location + '</span>');
+                    output = output.concat('</br><span class="location"><b>Location:</b> ' + location + '</span>');
                 } else {
                     if (format[i + 1] === '*location*' && location !== '' || format[i + 1] === '*summary*' && summary !== '' || format[i + 1] === '*date*' && dateFormatted !== '' || format[i + 1] === '*description*' && description !== '') {
                         output = output.concat(format[i]);

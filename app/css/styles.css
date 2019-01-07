@@ -164,6 +164,9 @@ iframe {
   .event-item .card-body {
     background-color: #cccccc; }
 
+.description {
+  margin-bottom: 2rem; }
+
 #sub-lead {
   position: relative;
   height: 25vh;
