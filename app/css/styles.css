@@ -139,6 +139,9 @@ iframe {
   background: rgba(0, 20, 59, 0.8);
   z-index: 1; }
 
+.undergrad {
+  text-align: center; }
+
 #pillars {
   padding: 25px; }
   #pillars h2 {
