@@ -40,15 +40,15 @@
     <div class="container">
 
       <h2 class="col-md-12 heading">2019</h2>
-      <h3 class="col-md-12">Ice Skate With SHPE NJ</h3>
+      <h3 class="row">Ice Skate With SHPE NJ</h3>
       <div class="event-gallery row">
-        <div class="col-md-3"><img id="myImg" onclick="openModal();currentSlide(1)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1552174838/Ice%20Skating%20With%20SHPE%20NJ/ice_skating_flyer.jpg" alt="Responsive image"></div>
-        <div class="col-md-3"><img id="myImg2" onclick="openModal();currentSlide(2)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1552174838/Ice%20Skating%20With%20SHPE%20NJ/group_pic_1.jpg" alt="Responsive image"></div>
-        <div class="col-md-3"><img id="myImg3" onclick="openModal();currentSlide(3)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1552174838/Ice%20Skating%20With%20SHPE%20NJ/group_pic_2.jpg" alt="Responsive image"></div>
-        <div class="col-md-3"><img id="myImg4" onclick="openModal();currentSlide(4)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1552174838/Ice%20Skating%20With%20SHPE%20NJ/small_group_1.jpg" alt="Responsive image"></div>
+        <div class="col-md-3"><img id="myImg" onclick="openModal('myModal');currentSlide(1)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1552174838/Ice%20Skating%20With%20SHPE%20NJ/ice_skating_flyer.jpg" alt="Responsive image"></div>
+        <div class="col-md-3"><img id="myImg2" onclick="openModal('myModal');currentSlide(2)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1552174838/Ice%20Skating%20With%20SHPE%20NJ/group_pic_1.jpg" alt="Responsive image"></div>
+        <div class="col-md-3"><img id="myImg3" onclick="openModal('myModal');currentSlide(3)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1552174838/Ice%20Skating%20With%20SHPE%20NJ/group_pic_2.jpg" alt="Responsive image"></div>
+        <div class="col-md-3"><img id="myImg4" onclick="openModal('myModal');currentSlide(4)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1552174838/Ice%20Skating%20With%20SHPE%20NJ/small_group_1.jpg" alt="Responsive image"></div>
         
         <div id="myModal" class="modal">
-          <span class="close cursor" onclick='closeModal()'>&times;</span>
+          <span class="close cursor" onclick='closeModal("myModal")'>&times;</span>
           <div class="modal-content">
             <div class="mySlides">
               <div class="numbertext">1/4</div>
@@ -75,58 +75,59 @@
             <div class="caption-container">
               <p id="caption"></p>
             </div>
-          </div>>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="row">SHPE Olympics</h3>
+      <div class="event-gallery row">
+        <div class="row">
+          <div class="col-md-3"><img onclick="openModal('myModal2');currentSlide(1)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1557116510/SHPE%20Olympics/20190414_120214.jpg" alt="Responsive image"></div>
+          <div class="col-md-3"><img onclick="openModal('myModal2');currentSlide(2)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1557116509/SHPE%20Olympics/20190414_132457.jpg" alt="Responsive image"></div>
+          <div class="col-md-3"><img onclick="openModal('myModal2');currentSlide(3)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1557116508/SHPE%20Olympics/20190414_133310.jpg" alt="Responsive image"></div>
+          <div class="col-md-3"><img onclick="openModal('myModal2');currentSlide(4)" src="https://res.cloudinary.com/shpe-nj/image/upload/v1557116507/SHPE%20Olympics/20190414_141712.jpg" alt="Responsive image"></div>
+        </div>
+
+        <div id="myModal2" class="modal">
+          <span class="close cursor" onclick='closeModal("myModal2")'>&times;</span>
+          <div class="modal-content">
+            <div class="mySlides2">
+              <div class="numbertext">1/4</div>
+              <img src="https://res.cloudinary.com/shpe-nj/image/upload/v1557116510/SHPE%20Olympics/20190414_120214.jpg">
+            </div>
+            <div class="mySlides2">
+              <div class="numbertext">2/4</div>
+              <img src="https://res.cloudinary.com/shpe-nj/image/upload/v1557116509/SHPE%20Olympics/20190414_132457.jpg">
+            </div>
+            <div class="mySlides2">
+              <div class="numbertext">3/4</div>
+              <img src="https://res.cloudinary.com/shpe-nj/image/upload/v1557116508/SHPE%20Olympics/20190414_133310.jpg">
+            </div>
+            <div class="mySlides2">
+              <div class="numbertext">4/4</div>
+              <img src="https://res.cloudinary.com/shpe-nj/image/upload/v1557116507/SHPE%20Olympics/20190414_141712.jpg">
+            </div>
+             
+            <!-- Next controls -->
+            <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+            <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
     <section include-html="footer.html"></section>
-    
-    <script>
-      // Open the Modal
-      function openModal() {
-        document.getElementById('myModal').style.display = "block";
-      }
-
-      // Close the Modal
-      function closeModal() {
-        document.getElementById('myModal').style.display = "none";
-      }
-
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      // Next/previous controls
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-
-      // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-      }
-    </script>
+  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- build:js js/main.min.js -->
+    <!-- <script src="js/modal.js"></script> -->
     <script src="js/main.js"></script>
     <!-- endbuild -->
   </body>
