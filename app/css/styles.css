@@ -100,6 +100,7 @@ iframe {
   border: none; }
 
 .event-gallery {
+  margin: 15px 0;
   /* Add Animation */ }
   .event-gallery img {
     cursor: pointer;
