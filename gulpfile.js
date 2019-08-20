@@ -43,7 +43,7 @@ gulp.task('move-css', function(){
 })
 
 gulp.task('move-js', function(){
-	return gulp.src('app/js/format-google-calendar.js')
+	return gulp.src('app/js/other/*.js')
 		.pipe(gulp.dest('dist/js'))
 })
 
