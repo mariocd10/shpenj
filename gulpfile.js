@@ -43,8 +43,8 @@ gulp.task('move-css', function(){
 })
 
 gulp.task('move-js', function(){
-	return gulp.src('app/js/other/*.js')
-		.pipe(gulp.dest('dist/js'))
+	return gulp.src('app/js/**/*.js')
+		.pipe(gulp.dest('dist/other/js'))
 })
 
 gulp.task('move-docs', function(){
