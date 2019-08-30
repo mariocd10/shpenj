@@ -4,7 +4,7 @@ showDivs(slideIndex, slideClass);
 
 let slideIndex2 = 1;
 let slideClass2 = 'beach-day';
-//showDivs(slideIndex2, slideClass2);
+showDivs(slideIndex2, slideClass2);
 
 function plusDivs(n, name) {
     showDivs(slideIndex += n, name);
