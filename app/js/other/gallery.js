@@ -2,6 +2,10 @@ var slideIndex = 1;
 var slideClass = 'ice-skate';
 showDivs(slideIndex, slideClass);
 
+let slideIndex2 = 1;
+let slideClass2 = 'beach-day';
+//showDivs(slideIndex2, slideClass2);
+
 function plusDivs(n, name) {
     showDivs(slideIndex += n, name);
 }
