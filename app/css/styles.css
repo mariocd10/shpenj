@@ -255,3 +255,6 @@ h2 {
 
 #stem-comp #forms {
   margin: 0 auto; }
+
+.gallery .row {
+  align-items: center; }
