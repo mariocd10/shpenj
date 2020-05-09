@@ -224,34 +224,10 @@ h2{
     }
 }
 
-#event-prev {
-    margin-bottom: 3em;
-
-    .event-card {
-        margin: 0 auto;
+#event_pg{
+    .card-event {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
-
-    h2 {
-        margin-bottom: 25px;
-        font-size: 3em;
-    }
-}
-
-.event-item {
-    margin: 2rem 1rem;
-
-    .card-header {
-        background-color: $dark-blue;
-        color: $grey;
-    }
-
-    .card-body {
-        background-color: $grey;
-    }
-}
-
-.description {
-    margin-bottom: 2rem;
 }
 
 #sub-lead {
@@ -262,13 +238,12 @@ h2{
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
-    
+    margin-bottom: 1rem;
     h2 {
-        margin-bottom: 25px;
+        //margin-bottom: 25px;
         font-size: 4em;
     }
 }
-
 
 #eboard {
     
@@ -371,24 +346,24 @@ h2{
     }
 }
 
-#stem-comp {
-    #agenda {
-        border-collapse: initial;
-    }
-    #stem-event-info {
-        margin-bottom: 1rem;
+// #stem-comp {
+//     #agenda {
+//         border-collapse: initial;
+//     }
+//     #stem-event-info {
+//         margin-bottom: 1rem;
     
-        i {
-            font-size: 3rem;
-            color: $dark-blue;
-            margin-bottom: 1rem;
-        }
-    }
+//         i {
+//             font-size: 3rem;
+//             color: $dark-blue;
+//             margin-bottom: 1rem;
+//         }
+//     }
     
-    #forms {
-        margin: 0 auto;
-    }
-}
+//     #forms {
+//         margin: 0 auto;
+//     }
+// }
 
 .gallery .row{
     align-items: center;

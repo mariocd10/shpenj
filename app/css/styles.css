@@ -148,24 +148,8 @@ h2 {
     padding: 0;
     margin-top: 25px; }
 
-#event-prev {
-  margin-bottom: 3em; }
-  #event-prev .event-card {
-    margin: 0 auto; }
-  #event-prev h2 {
-    margin-bottom: 25px;
-    font-size: 3em; }
-
-.event-item {
-  margin: 2rem 1rem; }
-  .event-item .card-header {
-    background-color: #00143B;
-    color: #cccccc; }
-  .event-item .card-body {
-    background-color: #cccccc; }
-
-.description {
-  margin-bottom: 2rem; }
+#event_pg .card-event {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 #sub-lead {
   position: relative;
@@ -174,9 +158,9 @@ h2 {
   background-color: #00143B;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  margin-bottom: 1rem; }
   #sub-lead h2 {
-    margin-bottom: 25px;
     font-size: 4em; }
 
 #eboard {
@@ -242,19 +226,6 @@ h2 {
 
 #accordionExample .card-body {
   background-color: #cccccc; }
-
-#stem-comp #agenda {
-  border-collapse: initial; }
-
-#stem-comp #stem-event-info {
-  margin-bottom: 1rem; }
-  #stem-comp #stem-event-info i {
-    font-size: 3rem;
-    color: #00143B;
-    margin-bottom: 1rem; }
-
-#stem-comp #forms {
-  margin: 0 auto; }
 
 .gallery .row {
   align-items: center; }
