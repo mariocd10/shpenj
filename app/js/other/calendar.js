@@ -32,7 +32,7 @@ async function listEvents(){
         console.log(value.items);
     })
 }
-listEvents();
+//listEvents();
 /*
 <div class="card mb-3 card-event">
       <div class="row no-gutters">
