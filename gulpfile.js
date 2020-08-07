@@ -8,15 +8,16 @@ var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 var del = require('del');
-var runSequence = require('run-sequence');
+var runSequence = require('run-sequence').use(gulp);
 
 gulp.task('default', function(callback){
 	runSequence(['sass','browserSync', 'watch'], callback)
 })
 
 // Optimization Process
-gulp.task('clean:dist', function(){
-	return del.sync('dist');
+gulp.task('clean:dist', function(done){
+	del.sync('dist');
+	done()
 })
 
 gulp.task('cache:clear', function(callback){
@@ -52,9 +53,6 @@ gulp.task('move-docs', function(){
 		.pipe(gulp.dest('dist/docs'))
 })
 
-gulp.task('build', function(callback){
-	runSequence('clean:dist', ['sass', 'useref','move-css', 'move-js', 'move-docs', 'images'], callback)
-})
 
 // Development Process
 gulp.task('browserSync',function(){
@@ -75,8 +73,12 @@ gulp.task('sass', function () {
 });
 
 
-gulp.task('watch',['browserSync','sass'] ,function(){
+gulp.task('watch', gulp.series('browserSync','sass'),function(){
 	gulp.watch('app/scss/**/*.scss',['sass']);
 	gulp.watch('app/*.html', browserSync.reload);
 	gulp.watch('app/js/**/*.js', browserSync.reload);
+})
+
+gulp.task('build',gulp.series('clean:dist','sass', 'useref','move-css', 'move-js', 'move-docs', 'images'), function(callback){
+	callback;
 })
