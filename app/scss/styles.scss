@@ -281,6 +281,16 @@ h2{
       background-repeat: no-repeat;
       margin: 0 auto;
     }
+
+    .eboard-img-dan{
+        border-radius: 50%; 
+        width: 200px;
+        height: 200px;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+      }
 }
 
 .social {
