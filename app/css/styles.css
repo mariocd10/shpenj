@@ -151,6 +151,9 @@ h2 {
 #event_pg .card-event {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
+#google-calendar {
+  margin: 0 auto; }
+
 #sub-lead {
   position: relative;
   height: 25vh;
