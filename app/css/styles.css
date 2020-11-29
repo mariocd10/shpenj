@@ -258,4 +258,5 @@ h2 {
 @media (max-width: 900px) {
   .membershipFaq {
     overflow: scroll;
-    width: 100%; } }
+    width: 100%;
+    -webkit-overflow-scrolling: touch; } }

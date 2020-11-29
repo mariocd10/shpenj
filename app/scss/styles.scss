@@ -401,5 +401,6 @@ h2{
     .membershipFaq {
         overflow:scroll;
         width:100%;
+        -webkit-overflow-scrolling: touch;
     }
 }
