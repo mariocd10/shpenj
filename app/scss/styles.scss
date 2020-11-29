@@ -396,3 +396,10 @@ h2{
 .gallery .row{
     align-items: center;
 }
+
+@media (max-width:900px){
+    .membershipFaq {
+        overflow:scroll;
+        width:100%;
+    }
+}
