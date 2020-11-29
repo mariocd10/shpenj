@@ -257,4 +257,5 @@ h2 {
 
 @media (max-width: 900px) {
   .membershipFaq {
-    white-space: normal; } }
+    white-space: normal;
+    width: 100%; } }
