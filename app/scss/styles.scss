@@ -401,6 +401,9 @@ h2{
     display: flex;
     align-items: center;
 }
+.sub-menu {
+    color:$light-blue !important;
+}
 @media (max-width:900px){
     .membershipFaq {
         white-space:normal;
