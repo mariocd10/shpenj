@@ -255,6 +255,13 @@ h2 {
 .gallery .row {
   align-items: center; }
 
+.image-fill-container {
+  display: flex;
+  align-items: center; }
+
+.sub-menu {
+  color: #2B57AD !important; }
+
 @media (max-width: 900px) {
   .membershipFaq {
     white-space: normal;

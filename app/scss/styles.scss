@@ -397,6 +397,13 @@ h2{
     align-items: center;
 }
 
+.image-fill-container {
+    display: flex;
+    align-items: center;
+}
+.sub-menu {
+    color:$light-blue !important;
+}
 @media (max-width:900px){
     .membershipFaq {
         white-space:normal;
