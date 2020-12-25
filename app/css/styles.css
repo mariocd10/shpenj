@@ -255,6 +255,10 @@ h2 {
 .gallery .row {
   align-items: center; }
 
+.image-fill-container {
+  display: flex;
+  align-items: center; }
+
 @media (max-width: 900px) {
   .membershipFaq {
     white-space: normal;
