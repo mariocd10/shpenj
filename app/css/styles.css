@@ -133,11 +133,15 @@ h2 {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 20, 59, 0.8);
+  background: rgba(0, 20, 59, 0.7);
   z-index: 1; }
 
 .undergrad {
   text-align: center; }
+  .undergrad p {
+    font-size: 1.25em; }
+  .undergrad .rutgers, .undergrad .stevens {
+    max-width: 100px; }
 
 #pillars {
   padding: 25px; }
@@ -262,7 +266,48 @@ h2 {
 .sub-menu {
   color: #2B57AD !important; }
 
-@media (max-width: 900px) {
+#bronze-sponsor {
+  padding-bottom: 35px;
+  margin-bottom: 20px; }
+  #bronze-sponsor h3 {
+    background-color: #cd7f32;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+#platinum-sponsor {
+  -moz-box-shadow: 0px 3px 8px #646464;
+  -webkit-box-shadow: 0px 3px 8px #646464;
+  box-shadow: 0px 15px 15px #646464;
+  top: -20px;
+  padding-bottom: 35px; }
+  #platinum-sponsor h3 {
+    background-color: #e5e4e2;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+#gold-sponsor {
+  padding-bottom: 35px; }
+  #gold-sponsor h3 {
+    background-color: #D4AF37;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.sponsor-content {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media (max-width: 990px) {
   .membershipFaq {
     white-space: normal;
     width: 100%; } }
+
+@media (max-width: 760px) {
+  #platinum-sponsor {
+    top: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; } }

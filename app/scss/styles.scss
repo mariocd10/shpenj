@@ -31,6 +31,10 @@ $light-blue: #2B57AD;
 $white: #fff;
 $grey: #cccccc;
 
+//Other Colors
+$platinum: #e5e4e2;
+$gold: #D4AF37;
+$bronze: #cd7f32;
 /*
     ---------------------
     ----- 2. Mixins -----
@@ -202,12 +206,18 @@ h2{
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($dark-blue, 0.8);
+    background: rgba($dark-blue, 0.7);
     z-index: 1;
 }
 
 .undergrad {
     text-align: center;
+    p {
+        font-size: 1.25em;
+    }
+    .rutgers, .stevens {
+        max-width: 100px;
+    }
 }
 
 #pillars {
@@ -404,9 +414,67 @@ h2{
 .sub-menu {
     color:$light-blue !important;
 }
-@media (max-width:900px){
+
+#bronze-sponsor {
+    // border: 1px;
+    // border-color: $bronze;
+    // border-style: solid;
+    h3 {
+        background-color: $bronze;
+        color: $white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    padding-bottom:35px;
+    margin-bottom: 20px;
+}
+
+#platinum-sponsor {
+    // border: 1px;
+    // border-color: $platinum;
+    // border-style: solid;
+    -moz-box-shadow: 0px 3px 8px rgb(100,100,100);
+    -webkit-box-shadow: 0px 3px 8px rgb(100,100,100);
+    box-shadow: 0px 15px 15px rgb(100,100,100);
+    h3 {
+        background-color: $platinum;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    top: -20px;
+    padding-bottom:35px;
+
+}
+
+#gold-sponsor {
+    // border: 1px;
+    // border-color: $gold;
+    // border-style: solid;
+    h3 {
+        background-color: $gold;
+        color: $white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    padding-bottom:35px;
+}
+.sponsor-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (max-width:990px){
     .membershipFaq {
         white-space:normal;
         width:100%;
+    }
+}
+@media (max-width: 760px){
+    #platinum-sponsor {
+        top: 0px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
     }
 }
